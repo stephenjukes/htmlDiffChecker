@@ -1,0 +1,44 @@
+#dashboard {
+	width: 80%;
+	margin: 20px auto;
+}
+
+del {
+	background: pink;
+}
+
+ins {
+	background: #d5f5e3;
+}
+
+button {
+	font-size: 12px;
+	padding: 5px 20px;
+	margin-right: 10px;
+	border-radius: 5px;
+}
+
+button:hover {
+	cursor: pointer;
+	background: #ddd;
+}
+
+.content {
+	box-sizing: border-box;
+	padding: 20px;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+
+textarea, pre {
+	margin: 0;
+	overflow: scroll;
+	font: 18px Courier;
+	color: #333;
+}
+
+#result {
+	font-family: Arial;
+}
+
+

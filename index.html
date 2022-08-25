@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML DiffChecker</title>
+        <link rel="stylesheet" href="diffchecker.css">
+    </head>
+    <body>
+        <section id="dashboard">
+  
+            <h4>Group by:</h4>
+            <section id='buttons'>
+              <button id="char-separator">Char</button>
+              <button id="space-separator">NonAlphaNumeric</button>
+              <button id="tag-separator">Tag</button>
+            </section>
+          
+            <section id="html1-container" class="content-container">
+              <h4>Html 1:</h4>
+              <textarea id="html1" class="content" style="width:700px"></textarea>
+            </section>
+          
+            <section id="html2-container" class="content-container">
+              <h4>Html 2:</h4>
+              <textarea id="html2" class="content" style="width:700px"></textarea>
+            </section>
+          
+            <section id="html-difference-container" class="content-container">
+              <h4>Html Difference:</h4>
+              <pre id="html-difference" class="content"></pre>
+            </section>
+          
+            <section id="result-container" class="content-container">
+              <h4>Rendered Difference:</h4>
+              <pre id="result" class="content"></pre>
+            </section>
+          </section>
+
+          <script src="diffchecker.js"></script>
+    </body>
+</html>
