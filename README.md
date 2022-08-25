@@ -1,4 +1,4 @@
 # htmlDiffChecker
 
-<a href="https://stephenjukes.github.io/ htmlDiffChecker/">Play in browser here</a>
+<a href="https://stephenjukes.github.io/htmlDiffChecker/">View in browser</a>
 
